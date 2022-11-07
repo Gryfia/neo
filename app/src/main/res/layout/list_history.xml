@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#F0F0F0">
+
+    <soup.neumorphism.NeumorphCardView
+        style="@style/Widget.Neumorph.CardView"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="670dp"
+        app:neumorph_shapeType="flat">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_margin="12dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_baseline_history_24"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            android:layout_margin="12dp"
+            android:paddingStart="330dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="2022-10-28"
+            android:fontFamily="@font/avereg"
+            android:textSize="15dp"
+            android:textColor="#4C2E2E"
+            android:gravity="center_horizontal"/>
+    </soup.neumorphism.NeumorphCardView>
+
+
+</LinearLayout>
